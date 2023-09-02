@@ -1,6 +1,7 @@
 import React from 'react'
 import './Login.scss'
 import three from './../../assets/three.png'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -16,8 +17,8 @@ const Login = () => {
         <div className='profileChoice'>
           <span>Selecione seu perfil abaixo para acessar a sua conta:</span>
           <div className='loginButton'>
-            <button className='client'> Responsável</button>
-            <button className='worker'> Profissional</button>
+            <Link to = '/home'>  <button className='client'> Responsável</button></Link> 
+            <Link to= '/home'> <button className='worker'> Profissional</button></Link> 
           </div>
         </div>
     </>
