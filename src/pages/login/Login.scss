@@ -1,0 +1,74 @@
+.mainLogin{
+    display:flex;
+    height: 40vh;
+    background-color: #00816F;
+    justify-content: center;
+    align-items: center;
+    .logo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3px;
+        .logoImg{
+            width: 60px;
+            height: 60px;
+        }
+        .owner{
+            color: white;
+            font-size: 32px;
+            font-weight: 600;
+            
+        }
+        .company{
+            color: white;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+}
+
+.profileChoice{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    span{
+        margin-left: 40px;
+        font-size: 18px;
+        font-weight: 300;
+        margin-right: 40px;
+    }
+    .loginButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 20px;
+        .client{
+            height: 50px;
+            width: calc(100vw - 80px);
+            font-size: 18px;
+            font-weight: 500;
+            outline: none;
+            background-color: #07689F;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .worker{
+            height: 50px;
+            width: calc(100vw - 80px);
+            font-size: 18px;
+            font-weight: 500;
+            outline: none;
+            border: 1px solid #07689F;
+            color: #07689F;
+            background-color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+   
