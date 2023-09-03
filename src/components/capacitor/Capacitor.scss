@@ -1,0 +1,60 @@
+.cardFruit{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 15px;
+    width: 180px;
+    height: 130px;
+    border-radius: 5px;
+    background-size: cover; 
+    background-position: center;
+    background-image: linear-gradient(rgba(92, 85, 85, 0.527),rgba(41, 37, 37, 0.5)), url('./../../assets/fruits.jpg');
+    
+    button{
+        height: 30px;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        font-size: 18px;
+        color: white;
+        background-color: #D48A04;
+        cursor: pointer;
+    }
+
+    span{
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+    }
+}
+.cardResearch{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 15px;
+    width: 180px;
+    height: 130px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(92, 85, 85, 0.527),rgba(41, 37, 37, 0.5)), url('./../../assets/research.jpg');
+
+    button{
+        height: 30px;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        font-size: 18px;
+        color: white;
+        background-color: #3B2D72;
+        cursor: pointer;
+    }
+
+    span{
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+    }
+}
