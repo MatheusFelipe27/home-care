@@ -1,0 +1,76 @@
+.homeNav{
+    display: flex;
+    height: 20vh;
+    background-color: #006557;
+    align-items: center;
+    justify-content: center;
+
+    .searchHome{   
+             
+        .searchIcon{
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 8px;
+        }
+
+        .homeNavInput{
+            padding-left: 40px;
+            padding-right: 10px;
+            width: calc(100vw - 90px);
+            height: 40px;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+            font-size: 16.5px;
+            font-weight: 500;
+            color: rgb(109, 101, 101);
+        }
+    }
+}
+
+.homeContent{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 10px;
+    
+    span{
+        font-size: 18px;
+        font-weight: 400;
+        color: #424F4D;
+    }
+    
+    .homeCards{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .homeCapacitor{
+        margin-top: 10px;
+
+        .homeSpan{
+            display: flex;
+            justify-content: space-between;
+            
+            span{
+                font-weight: 400;
+            }
+    
+            span:last-of-type{
+                color: #07689F;
+                cursor: pointer;
+            }
+        }
+
+
+        .capacitorCard{
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+    }
+}
