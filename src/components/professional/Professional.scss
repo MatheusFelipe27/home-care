@@ -1,0 +1,59 @@
+.professionalDivNurse{
+    display: flex;
+    align-items: flex-end;
+    width: 320px;
+    height: 211px;
+    border-radius: 10px;
+    background-size: cover; 
+    background-position: center;
+    background-image: linear-gradient(rgba(92, 85, 85, 0.527),rgba(41, 37, 37, 0.5)), url('./../../assets/nurse.jpg');
+}
+.professionalDivCare{
+    display: flex;
+    align-items: flex-end;
+    width: 320px;
+    height: 211px;
+    border-radius: 10px;
+    background-size: cover; 
+    background-position: center;
+    background-image: linear-gradient(rgba(92, 85, 85, 0.527),rgba(41, 37, 37, 0.5)), url('./../../assets/caregiver.jpg');
+}
+.professionalDivDoctor{
+    display: flex;
+    align-items: flex-end;
+    width: 320px;
+    height: 211px;
+    border-radius: 10px;
+    background-size: cover; 
+    background-position: center;
+    background-image: linear-gradient(rgba(92, 85, 85, 0.527),rgba(41, 37, 37, 0.5)), url('./../../assets/doctor.jpg');
+}
+
+.professionalContent{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+
+    span{
+        font-size: 26px;
+        font-weight: 500;
+        color: white;
+    }
+    .professionalBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        font-weight: 400;
+        font-size: 18px;
+        height: 40px;
+        width: 65%;
+        border-radius: 10px;
+        border: none;
+        background-color:white ;
+        color: #424F4D;
+        cursor: pointer;
+        margin-top: 8px;
+    }
+}
+
