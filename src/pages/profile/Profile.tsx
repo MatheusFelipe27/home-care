@@ -35,7 +35,7 @@ const Profile = () => {
             <div className='profileSection'>
                 <span id='first'>Seu perfil</span>
                 <div className='profileInfo'>
-                    <img src={myself}/>
+                    <img src={myself} alt='foto de perfil'/>
                     <div className='profileInfoContent'>
                         <span id='second'>Matheus Felipe</span>
                         <span id= 'third'>Recife - PE</span>
