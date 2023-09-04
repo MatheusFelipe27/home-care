@@ -1,4 +1,3 @@
-import React from 'react'
 import './Capacitor.scss'
 
 const Capacitor = ({btnName, name, img} : any) => {

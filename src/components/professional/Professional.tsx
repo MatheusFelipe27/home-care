@@ -3,7 +3,6 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
 const Professional = ({img, role}: any) => {
-
   return (
     <>
       <div className=

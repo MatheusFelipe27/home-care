@@ -1,4 +1,3 @@
-import React from 'react'
 import './Login.scss'
 import three from './../../assets/three.png'
 import { Link } from 'react-router-dom'

@@ -1,4 +1,3 @@
-import React from 'react'
 import './DetailsCard.scss'
 import myself from './../../assets/myself.jpg'
 import {RiStarSFill} from 'react-icons/ri'

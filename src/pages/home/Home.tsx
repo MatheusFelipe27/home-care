@@ -11,7 +11,6 @@ const professionalCards = [
 ]
 
 const Home = () => {
-
   const [searchValue, setSearchValue]= useState<String>()
   
   return (
@@ -49,7 +48,6 @@ const Home = () => {
                 <Capacitor btnName = "Capacitações" name= "Como ministar doses"  img="research" />  
               </div>
             </div>
-
         </div>
     </>
   )
