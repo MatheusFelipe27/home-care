@@ -1,6 +1,6 @@
-import React from 'react'
 import './Professional.scss'
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Professional = ({img, role}: any) => {
 
@@ -15,7 +15,9 @@ const Professional = ({img, role}: any) => {
       >
         <div className='professionalContent'>
           <span>{role}</span>
-          <button className='professionalBtn'>Ver Profissionais <AiOutlineArrowRight size={'22px'}/> </button>
+          <Link to='/details' style={{textDecoration: 'none'}}>
+            <button className='professionalBtn'>Ver Profissionais <AiOutlineArrowRight size={'22px'}/> </button>
+          </Link>
         </div>
       </div>
     </>
