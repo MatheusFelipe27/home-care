@@ -1,6 +1,7 @@
 import './DetailsCard.scss'
 import myself from './../../assets/myself.jpg'
 import {RiStarSFill} from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 
 interface DetailsProps{
     name: String,
@@ -24,7 +25,7 @@ const DetailsCard = ({name, price, coren,location} : DetailsProps) => {
                     <span id='four'>{coren? `Coren: ${coren} | ${location}`: location}</span>
                     <div className='stars'>
                         <span id='five'>
-                            <RiStarSFill />
+                            <RiStarSFill/>
                             <RiStarSFill />
                             <RiStarSFill />
                             <RiStarSFill />
@@ -35,7 +36,7 @@ const DetailsCard = ({name, price, coren,location} : DetailsProps) => {
 
                 </div>
             </div>
-            <button>Ver perfil</button>
+            <Link to= '/profile'> <button>Ver perfil</button></Link>   
         </div>
     </>
   )
