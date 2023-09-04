@@ -1,0 +1,32 @@
+.allDetailsContent{
+    background-color: #F8F8F8;    
+    .detailsNav{
+        display: flex;
+        height: 12vh;
+        background-color: #006557;
+        align-items: center;
+        justify-content: space-around;
+
+        span{
+            font-size: 17px;
+            font-weight: 600;
+            color: #FFF;
+        }
+    }
+
+    .spanQuantity{
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: #5D5D5D;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+}    
