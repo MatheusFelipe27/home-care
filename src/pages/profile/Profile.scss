@@ -1,0 +1,131 @@
+.profileAllContent{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 30px;   
+
+    .profileContent{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .profileCapacitor{
+            margin-top: 10px;
+    
+            .profileSpan{
+                display: flex;
+                justify-content: space-between;
+                
+                span{
+                    font-weight: 400;
+                    color: #424F4D;
+
+                }
+    
+                span:last-of-type{
+                    color: #07689F;
+                    cursor: pointer;
+                }
+            }
+    
+            .capacitorCard{
+                display: flex;
+                gap: 10px;
+                margin-top: 15px;
+                margin-bottom: 20px;
+            }
+        }    
+    }
+    
+    .warningProfile{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 20px;
+        gap: 10px;
+        width: calc(100vw - 60px);
+        height: 50px;
+        background-color: #F8F4C4;
+        border-radius: 8px;
+        border: 1px solid #EBDFB0;
+        color: #BCA56B;
+        font-weight: 500;
+        span{
+            font-size: 15px;
+        }
+    }
+
+    .profileSection{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        #first{
+            font-size: 18px;
+            font-weight: 300;
+            color: #424F4D;
+        }
+        .profileInfo{
+            display: flex;
+            border-bottom: 1px solid  #6D7A78;
+            
+            gap: 10px;
+
+            .profileInfoContent{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-bottom: 30px;
+
+                #second{
+                    color: #223330;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                #third{
+                    color: #6D7A78;
+                    font-weight: 400;
+                    font-size: 14px;
+
+                }
+
+                .starProfile{
+                    #fourth{
+                        display: flex;
+                        color: #6D7A78;
+                        font-size: 18px;
+                        gap: 5px;
+                    }
+                    span{
+                        color: #5D5D5D;
+                        font-size: 12px;
+                        font-weight: 400;
+                        padding-top: 2px;
+                    }
+                }
+            }
+
+            img{
+                width: 71px;
+                height: 71px;
+                border-radius: 100%;
+            }
+        }
+
+        .complete{
+            display: flex;
+            justify-content: center;
+            span{
+                display: flex;
+                gap: 10px;
+                color: #07689F;
+                cursor: pointer;
+            }
+        }
+
+        
+    }
+}    
