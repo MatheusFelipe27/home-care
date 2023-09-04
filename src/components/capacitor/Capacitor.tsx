@@ -1,6 +1,12 @@
 import './Capacitor.scss'
 
-const Capacitor = ({btnName, name, img} : any) => {
+interface CapacitorProps {
+  btnName: String,
+  name: String,
+  img: String
+}
+
+const Capacitor = ({btnName, name, img} : CapacitorProps) => {
   return (
     <>
         <div className= {img==="research"? 'cardResearch' : 'cardFruit'}>

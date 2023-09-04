@@ -6,7 +6,6 @@ import './Details.scss'
 import { Link } from 'react-router-dom';
 import DetailsCard from '../../components/detailsCard/DetailsCard';
 
-
 const detailsCard = [
     <DetailsCard name= "Richard Ramos" price= "70,00" coren= "00/00000" location= "São Paulo - SP"/>,
     <DetailsCard name= "Carolina Magalhães" price= "80,00" location= "Recife - PE"/>,

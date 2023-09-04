@@ -2,9 +2,14 @@ import './DetailsCard.scss'
 import myself from './../../assets/myself.jpg'
 import {RiStarSFill} from 'react-icons/ri'
 
+interface DetailsProps{
+    name: String,
+    price: String,
+    coren?: String,
+    location: String
+}
 
-
-const DetailsCard = ({name, price, coren,location} : any) => {
+const DetailsCard = ({name, price, coren,location} : DetailsProps) => {
   return (
     <>
         <div className='detailsCard'>
